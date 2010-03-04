@@ -82,7 +82,7 @@ feature 'DBI backend',
   'KiokuDB::Backend::DBI' => 0;
 
 feature 'CouchDB backend',
-  -default                    => has_couchdb(),
+  -default                    => 0, # has_couchdb(),
   'KiokuDB::Backend::CouchDB' => 0;
 
 feature 'libuuid based UUIDs',
